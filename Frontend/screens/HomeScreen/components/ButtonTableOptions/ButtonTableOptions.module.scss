@@ -1,0 +1,25 @@
+.table_option {
+  background-color: inherit;
+
+  border: none;
+  outline: none;
+
+  margin-right: 2rem;
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  border: 3px solid transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  cursor: pointer;
+  &:hover {
+    border-color: white;
+  }
+}
+
+.table_option__selected {
+  border-color: white;
+}

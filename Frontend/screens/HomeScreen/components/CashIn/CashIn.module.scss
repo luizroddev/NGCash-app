@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		row-gap: 2rem;
+	}
+}
+
+.errorMessage {
+	color: rgb(255, 95, 95);
+}
+
+.successMessage {
+	color: rgb(90, 230, 113);
+}
+
+.container {
+	button {
+		width: 100%;
+		padding: 1rem;
+
+		background: #000;
+		border: 2px solid white;
+		border-radius: 0.5rem;
+
+		&:disabled {
+			background-color: rgb(36, 35, 35);
+			color: white;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    # build:
+    #   context: .
+    #   dockerfile: ./Dockerfile
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: ngcash
+
+      NODE_ENV: production
+    ports:
+      - 5432:5432
+  # app:
+  #   container_name: ngcash
+  #   restart: always
+  #   build: .
+  #   environment:
+  #     NODE_ENV: production
+  #   ports:
+  #     - "3000:3000"
+  #   depends_on:
+  #     - db

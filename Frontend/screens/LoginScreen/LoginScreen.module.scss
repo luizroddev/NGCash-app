@@ -1,0 +1,117 @@
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+}
+
+.headline {
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+
+	span {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	p {
+		font-size: 1.125rem;
+		font-weight: 300;
+		margin-top: 1rem;
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	margin-bottom: 4.5rem;
+}
+
+.errorMessage {
+	transition: 0.1s ease-in-out;
+	padding-bottom: 2.25rem;
+
+	p {
+		color: rgb(252, 68, 68);
+	}
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+	height: 100%;
+}
+
+.leftSection {
+	background-color: black;
+	padding: 2rem 4rem 0rem 2rem;
+
+	.registerForm {
+		display: flex;
+		flex-direction: column;
+
+		width: 70%;
+
+		row-gap: 4rem;
+
+		.submitButton {
+			background-color: #ffffff;
+			color: black;
+
+			height: 4.5rem;
+
+			border-radius: 0.5rem;
+
+			font-size: 1rem;
+			font-weight: 600;
+
+			border: none;
+			cursor: pointer;
+
+			transition: 0.15s ease-in-out;
+
+			&:hover {
+				background-color: rgb(23, 22, 22);
+				color: white;
+				border: 2px solid white;
+			}
+		}
+	}
+
+	.createAccountButton {
+		margin-top: 3rem;
+		background-color: inherit;
+		color: white;
+
+		border-radius: 0.5rem;
+
+		font-size: 1rem;
+		font-weight: 600;
+
+		border: none;
+		cursor: pointer;
+
+		transition: 0.15s ease-in-out;
+
+		&:hover {
+			background-color: rgb(23, 22, 22);
+			color: white;
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
+.rightSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+
+	background-color: white;
+}
+
+.rightSection img {
+	width: 70%;
+}

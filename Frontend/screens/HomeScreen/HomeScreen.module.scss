@@ -1,0 +1,64 @@
+.wrapper {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+
+	margin: 0 4rem;
+
+	row-gap: 5rem;
+
+	color: white;
+
+	.left_container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section {
+		display: inline-flex;
+		flex-direction: column;
+		row-gap: 2rem;
+
+		.section_title {
+			font-size: 2.5rem;
+			font-weight: 700;
+		}
+	}
+}
+
+.balance {
+	h2 {
+		font-size: 1.5rem;
+		font-weight: 500;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+		font-weight: 600;
+	}
+}
+
+.transactions {
+	height: 70vh;
+	width: 50%;
+	overflow-y: scroll;
+
+	table {
+		border-collapse: collapse;
+		overflow-y: hidden;
+	}
+
+	th {
+		text-align: left;
+		font-weight: 600;
+	}
+
+	td {
+		padding: 1rem 0;
+		text-align: left;
+	}
+}

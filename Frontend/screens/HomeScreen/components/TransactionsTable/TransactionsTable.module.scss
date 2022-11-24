@@ -1,0 +1,15 @@
+.date_filter {
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	background-color: inherit;
+
+	cursor: pointer;
+
+	border-bottom: 1px solid white;
+
+	&:hover {
+		color: gray;
+		border-bottom: 1px solid gray;
+	}
+}

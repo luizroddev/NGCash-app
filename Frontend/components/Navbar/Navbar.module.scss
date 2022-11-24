@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  padding-bottom: 5rem;
+
+  padding: 2rem 1rem;
+
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
